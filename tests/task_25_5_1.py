@@ -49,7 +49,7 @@ def test_implicit_wait():
     # Проверяем имя
     assert len(name_age[0]) > 1
     # Проверяем возраст
-    assert 'лет' in name_age[1]
+    assert len(name_age[1]) > 1
 
 
 def test_explicit_wait():
