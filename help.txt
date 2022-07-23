@@ -1,0 +1,2 @@
+#команда запуска теста
+python -m pytest .\tests\task_25_5_1.py
